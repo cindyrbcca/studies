@@ -1,2 +1,2 @@
 # studies
-study for uts rawr
+study for UAS rawrrr
