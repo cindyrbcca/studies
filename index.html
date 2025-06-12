@@ -1,11 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Treloo - Travel Website</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">Treloo</div>
+      <ul class="nav-links">
+        <li>Review</li>
+        <li>Tips</li>
+        <li>Alerts</li>
+        <li>Blog</li>
+        <li><button class="btn">Blog</button></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>Discover Your Life, Travel Where You Want</h1>
+      <p>Would you explore natur paradise in the world, let's find the best destination in world with us.</p>
+      <div class="search-box">
+        <div class="input-group">
+          <label>Living From</label>
+          <input type="text" value="Dubai" />
+        </div>
+        <div class="input-group">
+          <label>Going to</label>
+          <input type="text" value="New York" />
+        </div>
+        <div class="input-group">
+          <label>Leave</label>
+          <input type="text" value="23 Jan, Sat" />
+        </div>
+        <div class="input-group">
+          <label>Return</label>
+          <input type="text" value="14 Jan, Thu" />
+        </div>
+        <button class="search-btn">🔍</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="recommend">
+    <h2>Recommended Destination</h2>
+    <div class="tabs">
+      <span class="active">Popular</span>
+      <span>Adventure</span>
+      <span>Beach</span>
+    </div>
+    <div class="destinations">
+      <!-- Repeat this block for multiple cards -->
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Kina Mountain" />
+        <div class="card-info">
+          <h3>Kina Mountain</h3>
+          <p>📍 Cambodia</p>
+        </div>
+      </div>
+      <!-- Add more cards similarly -->
+    </div>
+  </section>
+
+  <section class="info">
+    <img src="https://via.placeholder.com/250x350" alt="Travel" class="info-image" />
+    <div class="info-text">
+      <div class="badges">
+        <span>5000+ Tourists</span>
+        <span>300+ Destinations</span>
+        <span>150+ Hotels</span>
+      </div>
+      <h2>Travel Any Corner of The World With Us</h2>
+      <p>Would you explore nature paradise in the world, let's find the best destination in world with us.</p>
+      <button class="btn">Contact Us</button>
+    </div>
+  </section>
+
+  <section class="discount">
+    <h2>Don't Miss The 50% Discount if You register Today</h2>
+    <button class="btn">Register Today</button>
+  </section>
+
+  <footer>
+    <p>© 2022 Treloo LLC - All right reserved.</p>
+    <div class="footer-links">
+      <a href="#">Review</a>
+      <a href="#">Tips</a>
+      <a href="#">Alerts</a>
+      <a href="#">Blog</a>
+    </div>
+  </footer>
 </body>
 </html>
